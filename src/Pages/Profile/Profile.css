@@ -1,0 +1,17 @@
+.profile{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: start;
+}
+.profile h2{
+  font-size: 20px;
+}
+.profile  svg{
+  height: 70px;
+  width: 70px;
+  color: blueviolet;
+  margin-bottom: 50px;
+}

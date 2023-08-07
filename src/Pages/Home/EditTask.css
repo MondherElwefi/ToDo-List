@@ -1,0 +1,128 @@
+.edit-task {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100vh;
+
+}
+
+.edit-task .task {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: 10px 0;
+  border: 1px solid rgb(241, 241, 241);
+  box-shadow: 0px 0px 5px rgb(146, 146, 146);
+
+}
+
+.edit-task .task p {
+
+  width: 320px !important;
+  height: auto;
+
+}
+
+.edit-task .trash {
+
+  cursor: pointer;
+}
+
+.edit-task .time {
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.edit-task .first-section {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.edit-task .title {
+  border: none;
+  outline: none;
+}
+
+.edit-task ul {
+  padding: 0 !important;
+
+}
+
+.edit-task .info {
+
+  margin: 30px 0;
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.edit-task .info div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+
+}
+
+.edit-task .info button {
+  background-color: white;
+  border: 2px solid blueviolet !important;
+  padding: 7px 20px !important;
+  color: blueviolet;
+  border-radius: 3px;
+
+
+}
+
+.edit-task .info button:hover {
+  background-color: blueviolet;
+  color: white;
+
+
+}
+
+.edit-task .back-btn {
+  all: unset !important;
+  margin-top: 75px !important;
+
+
+
+}
+
+.edit-task .back-btn svg {
+  width: 60px;
+  height: 60px;
+  color: blueviolet;
+  cursor: pointer;
+
+}
+
+.edit-task .trash {
+
+  cursor: pointer;
+
+}
+
+.btn-manage-task{
+  background-color: white;
+  border: 2px solid blueviolet !important;
+  padding: 3px 10px !important;
+  color: blueviolet;
+  border-radius: 3px;
+}
+.add-sub-task{
+  outline: none;
+  border: none;
+border-bottom:2px solid black;
+}
+
+

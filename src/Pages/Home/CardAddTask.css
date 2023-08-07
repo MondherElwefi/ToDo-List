@@ -1,0 +1,95 @@
+.card-add-task{
+  height: 450px;
+  width: 430px;
+
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -180px;
+  background-color: rgb(231, 231, 231);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  border-radius: 5px;
+
+  
+}
+.card-add-task .btn-close{
+  margin-top: 20px;
+   background-color: #007bff;
+   border-radius: 50%;
+   padding: 10px;
+   cursor: pointer;
+   opacity: 1;
+  
+}
+
+.card-add-task input{
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  font-size: 16px; 
+  width: 90%; 
+  box-sizing: border-box; 
+}
+.card-add-task .details-sec{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: stretch;
+  width: 90%;
+  
+}
+.card-add-task .details-sec .add-details-btn{
+  border: none;
+  width: 14%;
+  background-color: #007bff;
+  border-radius: 4px; 
+
+  
+}
+.card-add-task .add-task-btn{
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  border-radius: 4px; 
+
+  
+}
+
+.card-add-task .sub-task{
+  height: 280px;
+  width: 80%;
+  overflow-y: auto;
+  margin: 0 !important;
+}
+.card-add-task .sub-task li{
+  list-style-type: circle;
+}
+
+
+select {
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  font-size: 16px;
+  width: 90%;
+  box-sizing: border-box; 
+}
+
+
+select:focus {
+  border-color: #007bff; 
+  outline: none; 
+}
+
+
+
+
+
+
+
+
+  

@@ -1,0 +1,96 @@
+
+.signin{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin .signin-form{
+  border-radius: 3px;
+  box-shadow: 10px 20px 30px rgb(248,249,250);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgb(238, 238, 238);
+  width: auto;
+}
+
+.signin .signin-form .btn{
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+
+  background-color: white;
+  border: 2px solid blueviolet !important;
+  padding: 7px 40px !important;
+  color: blueviolet;
+}
+
+.signin .signin-form .btn:hover{
+  background-color: blueviolet;
+  color: white;
+}
+
+.signin .signin-form input {
+  display: block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+
+.signin .signin-form .signin-head{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.signin .signin-form .signin-head svg{
+  height: 30px;
+  width: 30px;
+  color: blueviolet;
+}
+
+.signin .signin-form .forgotten-txt{
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+  text-align: end;
+  color: rgb(137, 67, 202);
+  text-decoration: underline;
+}
+.signin .signin-form .account-txt{
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+}
+.signin .signin-form .account-txt a{
+  color: rgb(137, 67, 202);
+  padding: 0 3px;
+  text-decoration: none;
+}
+
+.signin .alert{
+  position: fixed !important ;
+  top: 80px !important;
+  right: 10px;
+  transform: translateX(200%);
+  transition: all .3s ease-in-out;
+}
+.signin .alert.active{
+  transform: translateX(0);
+}
+
+
+.signin .signin-form .account-txt a{
+  color: rgb(137, 67, 202) !important;
+  padding: 0 3px;
+  text-decoration: underline !important;
+}
+
